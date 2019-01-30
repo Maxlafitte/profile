@@ -32,9 +32,16 @@ a {
 a:hover {
   color : rgb(111, 172, 207);
 }
+#side-bar {
+  position: fixed;
+  width: 130px;
+  background-color: rgb(220, 220, 220);
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
 
-
-.container{
+#container{
   width: 650px;
   margin: 30px auto;
 }
@@ -45,7 +52,6 @@ a:hover {
   margin: 25px auto;
   border : 1px solid rgb(255, 255, 255);
   border-radius: 5px;
-
 }
 
 .text-center{
@@ -94,7 +100,13 @@ a:hover {
   font-size: 25px;
   display: inline-block;
 }
-
+.nav{
+  margin: 40px 20px;
+  text-decoration: none;
+}
+.nav-bar {
+  list-style-type: none;
+}
 
 
 

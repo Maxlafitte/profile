@@ -11,10 +11,29 @@
 </head>
 
 <body>
+  <div id="side-bar">
+    <ul class="nav-bar">
+      <li>
+        <a href="#summary">
+          <i class="fas fa-info nav"></i>
+        </a><br>
+      </li>
+      <li>
+        <a href="#favorite-movies">
+          <i class="fas fa-video nav"></i>
+        </a><br>
+      </li>
+      <li>
+        <a href="#help">
+          <i class="fas fa-question nav"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
 
-  <div class="container">
+  <div id="container">
 
-    <div class ="card text-center card-shadow">
+    <div id="summary" class="card text-center card-shadow">
       <img src="images/maxime.jpeg" alt="Profile picture" class="img-circle img-resize">
       <h1>Maxime Lafitte</h1>
       <h2>Student @ Le Wagon</h2>
@@ -42,7 +61,7 @@
         </ul>
     </div>
 
-    <div class="card text-center card-shadow">
+    <div id="favorite-movies" class="card text-center card-shadow">
       <h2>My Favourite movies</h2>
         <table>
           <tbody>
@@ -82,7 +101,7 @@
         </table>
     </div>
 
-    <div class="card text-center card-shadow">
+    <div id="help" class="card text-center card-shadow">
       <h2>About this page</h2>
       <p>This page has been coded during the first day of Front end @Le Wagon fullstack Program</p>
       <ul class="inline-list">
